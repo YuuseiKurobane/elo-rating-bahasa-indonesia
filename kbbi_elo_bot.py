@@ -993,21 +993,21 @@ async def on_ready():
 async def cmd_help(ctx: commands.Context):
     msg = dedent(f"""
     Commands:
-    • ?register <freedom|anki> — register or switch mode (default freedom)
-    • ?reviewmode <all|manual|mistakes> — set what gets printed at quiz end (default manual)
-    • ?mine — add the previous question's key to your mined list
-    • ?mineid <row_index> — add that key to mined list
-    • ?myseen — download a deduped list of all keys you've seen (first occurrence order)
-    • ?myhistory — download your entire history as 'row_index correct|wrong' (trim oldest if file >8MB)
-    • ?report — report the most recent question as unfair (bad definition). Won't accept duplicates for the same row_index if pending/approved.
-    • ?reportid <row_index> — report by row_index
-    • ?complain — complain that the options were too similar for the most recent question
-    • ?complainid <row_index> — complain by row_index
-    • ?nerf / ?nerfid <row_index> — request difficulty decrease
-    • ?buff / ?buffid <row_index> — request difficulty increase
-    • ?quiz [N] — start a quiz (default N={DEFAULT_QUIZ_LEN}), type 'exit' to stop
-    • ?hide — toggle whether to show freq-rank and b after each answer
-    • ?helpadmin — shows admin-only commands
+    • {COMMAND_PREFIX}register <freedom|anki> — register or switch mode (default freedom)
+    • {COMMAND_PREFIX}reviewmode <all|manual|mistakes> — set what gets printed at quiz end (default manual)
+    • {COMMAND_PREFIX}mine — add the previous question's key to your mined list
+    • {COMMAND_PREFIX}mineid <row_index> — add that key to mined list
+    • {COMMAND_PREFIX}myseen — download a deduped list of all keys you've seen (first occurrence order)
+    • {COMMAND_PREFIX}myhistory — download your entire history as 'row_index correct|wrong' (trim oldest if file >8MB)
+    • {COMMAND_PREFIX}report — report the most recent question as unfair (bad definition). Won't accept duplicates for the same row_index if pending/approved.
+    • {COMMAND_PREFIX}reportid <row_index> — report by row_index
+    • {COMMAND_PREFIX}complain — complain that the options were too similar for the most recent question
+    • {COMMAND_PREFIX}complainid <row_index> — complain by row_index
+    • {COMMAND_PREFIX}nerf / {COMMAND_PREFIX}nerfid <row_index> — request difficulty decrease
+    • {COMMAND_PREFIX}buff / {COMMAND_PREFIX}buffid <row_index> — request difficulty increase
+    • {COMMAND_PREFIX}quiz [N] — start a quiz (default N={DEFAULT_QUIZ_LEN}), type 'exit' to stop
+    • {COMMAND_PREFIX}hide — toggle whether to show freq-rank and b after each answer
+    • {COMMAND_PREFIX}helpadmin — shows admin-only commands
     """).strip()
     await send_long_text(ctx, "help.txt", msg)
 
@@ -1016,15 +1016,15 @@ async def cmd_helpadmin(ctx: commands.Context):
     if not is_admin(ctx.author.id):
         await ctx.send("Admins only.")
         return
-    msg = dedent("""
+    msg = dedent(f"""
     Admin-only:
-    • ?admin — open the approval console (one admin at a time)
-    • ?adminforceexit — force-release the admin console lock
-    • ?rebalance <row_index> <new_b> — set runtime difficulty (b) for an item
-    • ?undo <approval_id> — undo a prior approval (report/complaint)
-    • ?list_approvals [report|complaint] [active|undone] [limit] — list approvals
-    • ?recalcelo — recompute Elo for all users (requires typing 'recalc' to confirm)
-    • ?recalcelo @user — recompute Elo for a single user
+    • {COMMAND_PREFIX}admin — open the approval console (one admin at a time)
+    • {COMMAND_PREFIX}adminforceexit — force-release the admin console lock
+    • {COMMAND_PREFIX}rebalance <row_index> <new_b> — set runtime difficulty (b) for an item
+    • {COMMAND_PREFIX}undo <approval_id> — undo a prior approval (report/complaint)
+    • {COMMAND_PREFIX}list_approvals [report|complaint] [active|undone] [limit] — list approvals
+    • {COMMAND_PREFIX}recalcelo — recompute Elo for all users (requires typing 'recalc' to confirm)
+    • {COMMAND_PREFIX}recalcelo @user — recompute Elo for a single user
     """).strip()
     await send_long_text(ctx, "helpadmin.txt", msg)
 
