@@ -1,0 +1,1704 @@
+{
+  "209145376375046145": {
+    "user_id": 209145376375046145,
+    "mode": "freedom",
+    "reviewmode": "manual",
+    "hide_item_info": false,
+    "history_list": [
+      {
+        "qid": 1,
+        "row_index": "120960",
+        "key": "sebagai",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "99838",
+          "46758",
+          "109167"
+        ]
+      },
+      {
+        "qid": 2,
+        "row_index": "145641",
+        "key": "yang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "101147",
+          "18137",
+          "131378"
+        ]
+      },
+      {
+        "qid": 3,
+        "row_index": "121538",
+        "key": "segera",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "143670",
+          "89839",
+          "38700"
+        ]
+      },
+      {
+        "qid": 4,
+        "row_index": "57290",
+        "key": "kering",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "140068",
+          "63567",
+          "92407"
+        ]
+      },
+      {
+        "qid": 5,
+        "row_index": "145638",
+        "key": "yang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "114368",
+          "72814",
+          "11300"
+        ]
+      },
+      {
+        "qid": 6,
+        "row_index": "124780",
+        "key": "serta",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "22939",
+          "136686",
+          "69578"
+        ]
+      },
+      {
+        "qid": 7,
+        "row_index": "46702",
+        "key": "itu",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "138875",
+          "137265",
+          "73217"
+        ]
+      },
+      {
+        "qid": 8,
+        "row_index": "120751",
+        "key": "saya",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "18962",
+          "67008",
+          "85382"
+        ]
+      },
+      {
+        "qid": 9,
+        "row_index": "29912",
+        "key": "dengan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "9056",
+          "71126",
+          "56088"
+        ]
+      },
+      {
+        "qid": 10,
+        "row_index": "68302",
+        "key": "lingkungan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "12913",
+          "129924",
+          "26325"
+        ]
+      },
+      {
+        "qid": 11,
+        "row_index": "109365",
+        "key": "perusahaan cangkang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "31860",
+          "55764",
+          "18546"
+        ]
+      },
+      {
+        "qid": 12,
+        "row_index": "145639",
+        "key": "yang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "125927",
+          "27211",
+          "133334"
+        ]
+      },
+      {
+        "qid": 13,
+        "row_index": "75983",
+        "key": "membuka",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "70878",
+          "36232",
+          "86867"
+        ]
+      },
+      {
+        "qid": 14,
+        "row_index": "50620",
+        "key": "kambang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "4878",
+          "5403",
+          "2848"
+        ]
+      },
+      {
+        "qid": 15,
+        "row_index": "138894",
+        "key": "tidak",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "101703",
+          "133290",
+          "25596"
+        ]
+      },
+      {
+        "qid": 16,
+        "row_index": "28404",
+        "key": "damai",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "102585",
+          "127044",
+          "77745"
+        ]
+      },
+      {
+        "qid": 17,
+        "row_index": "142212",
+        "key": "udik",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "13474",
+          "111039",
+          "129004"
+        ]
+      },
+      {
+        "qid": 18,
+        "row_index": "42084",
+        "key": "hati",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "58201",
+          "129122",
+          "122251"
+        ]
+      },
+      {
+        "qid": 19,
+        "row_index": "31312",
+        "key": "disapa",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "48159",
+          "100343",
+          "113073"
+        ]
+      },
+      {
+        "qid": 20,
+        "row_index": "28483",
+        "key": "dan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "10486",
+          "15655",
+          "54275"
+        ]
+      },
+      {
+        "qid": 21,
+        "row_index": "78678",
+        "key": "mencapai",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "107987",
+          "28175",
+          "123744"
+        ]
+      },
+      {
+        "qid": 22,
+        "row_index": "109005",
+        "key": "persis",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "136953",
+          "105195",
+          "25156"
+        ]
+      },
+      {
+        "qid": 23,
+        "row_index": "1710",
+        "key": "agresor",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "40593",
+          "17519",
+          "106467"
+        ]
+      },
+      {
+        "qid": 24,
+        "row_index": "48080",
+        "key": "jelas",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "137635",
+          "17377",
+          "57203"
+        ]
+      },
+      {
+        "qid": 25,
+        "row_index": "131523",
+        "key": "tal",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "107213",
+          "70661",
+          "30300"
+        ]
+      },
+      {
+        "qid": 27,
+        "row_index": "42346",
+        "key": "hemosianin",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "114886",
+          "56157",
+          "128169"
+        ]
+      },
+      {
+        "qid": 28,
+        "row_index": "65339",
+        "key": "landas paya",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "101570",
+          "44719",
+          "94162"
+        ]
+      },
+      {
+        "qid": 39,
+        "row_index": "123733",
+        "key": "sensitif",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "61516",
+          "20648",
+          "46788"
+        ]
+      },
+      {
+        "qid": 41,
+        "row_index": "58640",
+        "key": "ketersinggungan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "72720",
+          "60389",
+          "9659"
+        ]
+      },
+      {
+        "qid": 42,
+        "row_index": "85963",
+        "key": "menjoget",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "117776",
+          "49035",
+          "135967"
+        ]
+      },
+      {
+        "qid": 45,
+        "row_index": "99612",
+        "key": "pegar",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "40736",
+          "41181",
+          "83287"
+        ]
+      },
+      {
+        "qid": 46,
+        "row_index": "112405",
+        "key": "prihatin",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "93174",
+          "24992",
+          "11640"
+        ]
+      },
+      {
+        "qid": 47,
+        "row_index": "13085",
+        "key": "bedah buku",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "55103",
+          "103252",
+          "17199"
+        ]
+      },
+      {
+        "qid": 48,
+        "row_index": "17020",
+        "key": "berjungkir",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "82341",
+          "68593",
+          "90087"
+        ]
+      },
+      {
+        "qid": 49,
+        "row_index": "98951",
+        "key": "pasit",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "16149",
+          "21831",
+          "21472"
+        ]
+      },
+      {
+        "qid": 50,
+        "row_index": "116443",
+        "key": "renyeh",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "118452",
+          "47821",
+          "135095"
+        ]
+      },
+      {
+        "qid": 51,
+        "row_index": "114227",
+        "key": "radas ekstraksi",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "71626",
+          "76360",
+          "22249"
+        ]
+      },
+      {
+        "qid": 52,
+        "row_index": "99922",
+        "key": "pelalaian",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "18492",
+          "106985",
+          "92469"
+        ]
+      },
+      {
+        "qid": 53,
+        "row_index": "38996",
+        "key": "geokimiawi",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "104711",
+          "45005",
+          "112577"
+        ]
+      },
+      {
+        "qid": 56,
+        "row_index": "50670",
+        "key": "kameo",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "5458",
+          "86109",
+          "78353"
+        ]
+      },
+      {
+        "qid": 57,
+        "row_index": "4747",
+        "key": "ampai-ampai",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "114887",
+          "64619",
+          "80743"
+        ]
+      },
+      {
+        "qid": 58,
+        "row_index": "5574",
+        "key": "anemofili",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "38980",
+          "10099",
+          "46343"
+        ]
+      },
+      {
+        "qid": 59,
+        "row_index": "242",
+        "key": "abdominal",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "55600",
+          "120280",
+          "97175"
+        ]
+      },
+      {
+        "qid": 60,
+        "row_index": "122675",
+        "key": "seludupan saku",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "65222",
+          "56951",
+          "103729"
+        ]
+      },
+      {
+        "qid": 61,
+        "row_index": "119927",
+        "key": "sangkut",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "2319",
+          "90715",
+          "25819"
+        ]
+      },
+      {
+        "qid": 62,
+        "row_index": "131252",
+        "key": "takbutuh",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "8163",
+          "74505",
+          "53160"
+        ]
+      },
+      {
+        "qid": 63,
+        "row_index": "110330",
+        "key": "pindah",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "124973",
+          "81529",
+          "145698"
+        ]
+      },
+      {
+        "qid": 64,
+        "row_index": "39008",
+        "key": "geologi rekayasa",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "141790",
+          "94719",
+          "127979"
+        ]
+      },
+      {
+        "qid": 65,
+        "row_index": "29276",
+        "key": "debat",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "30092",
+          "54542",
+          "38346"
+        ]
+      },
+      {
+        "qid": 66,
+        "row_index": "35842",
+        "key": "flis",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "145720",
+          "101410",
+          "48037"
+        ]
+      },
+      {
+        "qid": 67,
+        "row_index": "104307",
+        "key": "pengerucutan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "55726",
+          "87616",
+          "119580"
+        ]
+      },
+      {
+        "qid": 68,
+        "row_index": "99906",
+        "key": "pelaku bisnis",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "78649",
+          "119416",
+          "99449"
+        ]
+      },
+      {
+        "qid": 69,
+        "row_index": "130863",
+        "key": "tahap operasional konkret",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "98815",
+          "104747",
+          "4237"
+        ]
+      },
+      {
+        "qid": 70,
+        "row_index": "39028",
+        "key": "geomorfik",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "78866",
+          "79684",
+          "65337"
+        ]
+      },
+      {
+        "qid": 71,
+        "row_index": "19804",
+        "key": "bersidang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "82166",
+          "132829",
+          "26327"
+        ]
+      },
+      {
+        "qid": 73,
+        "row_index": "143993",
+        "key": "vesikular",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "106730",
+          "98958",
+          "83248"
+        ]
+      },
+      {
+        "qid": 74,
+        "row_index": "99633",
+        "key": "pegawai pemerintah",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "110843",
+          "72186",
+          "17673"
+        ]
+      },
+      {
+        "qid": 75,
+        "row_index": "28309",
+        "key": "dakwaan alternatif",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "32000",
+          "28823",
+          "87325"
+        ]
+      },
+      {
+        "qid": 76,
+        "row_index": "14611",
+        "key": "beranjak",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "126705",
+          "75214",
+          "116382"
+        ]
+      },
+      {
+        "qid": 77,
+        "row_index": "21126",
+        "key": "besalen",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "17831",
+          "45545",
+          "27430"
+        ]
+      },
+      {
+        "qid": 78,
+        "row_index": "109323",
+        "key": "perumahan rakyat",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "137924",
+          "85453",
+          "49766"
+        ]
+      },
+      {
+        "qid": 79,
+        "row_index": "108651",
+        "key": "pernikahan dini",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "4621",
+          "26244",
+          "28774"
+        ]
+      },
+      {
+        "qid": 80,
+        "row_index": "136875",
+        "key": "terlacak",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "110702",
+          "49668",
+          "5270"
+        ]
+      },
+      {
+        "qid": 81,
+        "row_index": "108384",
+        "key": "perkerasan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "141446",
+          "103972",
+          "83813"
+        ]
+      },
+      {
+        "qid": 82,
+        "row_index": "117424",
+        "key": "roman",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "73528",
+          "124054",
+          "141324"
+        ]
+      },
+      {
+        "qid": 83,
+        "row_index": "56278",
+        "key": "kepala daerah",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "57424",
+          "60374",
+          "45208"
+        ]
+      },
+      {
+        "qid": 84,
+        "row_index": "71789",
+        "key": "masa depan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "25499",
+          "75569",
+          "113404"
+        ]
+      },
+      {
+        "qid": 85,
+        "row_index": "131969",
+        "key": "tan-",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "53480",
+          "82421",
+          "51372"
+        ]
+      },
+      {
+        "qid": 86,
+        "row_index": "2833",
+        "key": "aksesori",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "120542",
+          "96274",
+          "139389"
+        ]
+      },
+      {
+        "qid": 87,
+        "row_index": "83668",
+        "key": "mengharukan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "94935",
+          "11215",
+          "32847"
+        ]
+      },
+      {
+        "qid": 88,
+        "row_index": "2028",
+        "key": "air freatik",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "17461",
+          "14669",
+          "116266"
+        ]
+      },
+      {
+        "qid": 89,
+        "row_index": "34379",
+        "key": "entit",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "87286",
+          "55680",
+          "118199"
+        ]
+      },
+      {
+        "qid": 90,
+        "row_index": "128080",
+        "key": "spmb",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "57275",
+          "28154",
+          "97692"
+        ]
+      },
+      {
+        "qid": 91,
+        "row_index": "55893",
+        "key": "kemurungan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "9342",
+          "67739",
+          "96129"
+        ]
+      },
+      {
+        "qid": 92,
+        "row_index": "83031",
+        "key": "menggelosok",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "124677",
+          "89811",
+          "144918"
+        ]
+      },
+      {
+        "qid": 93,
+        "row_index": "89853",
+        "key": "merobok",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "39937",
+          "127497",
+          "88700"
+        ]
+      },
+      {
+        "qid": 94,
+        "row_index": "138387",
+        "key": "tertutur",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "60093",
+          "48741",
+          "132973"
+        ]
+      },
+      {
+        "qid": 95,
+        "row_index": "72980",
+        "key": "melajang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "131004",
+          "142498",
+          "121616"
+        ]
+      },
+      {
+        "qid": 96,
+        "row_index": "103013",
+        "key": "penderitaan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "106798",
+          "41747",
+          "43006"
+        ]
+      },
+      {
+        "qid": 97,
+        "row_index": "924",
+        "key": "adenoid",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "23554",
+          "82947",
+          "143860"
+        ]
+      },
+      {
+        "qid": 98,
+        "row_index": "132154",
+        "key": "tanda gambar",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "74207",
+          "66146",
+          "79318"
+        ]
+      },
+      {
+        "qid": 99,
+        "row_index": "3789",
+        "key": "alkali",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "105672",
+          "37236",
+          "141803"
+        ]
+      },
+      {
+        "qid": 100,
+        "row_index": "132241",
+        "key": "tandingan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "94160",
+          "95478",
+          "88727"
+        ]
+      },
+      {
+        "qid": 101,
+        "row_index": "100765",
+        "key": "pemandangan umum",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "9903",
+          "101477",
+          "13072"
+        ]
+      },
+      {
+        "qid": 102,
+        "row_index": "17162",
+        "key": "berkarisma",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "17424",
+          "78268",
+          "63570"
+        ]
+      },
+      {
+        "qid": 103,
+        "row_index": "137443",
+        "key": "terpasang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "64910",
+          "88610",
+          "100462"
+        ]
+      },
+      {
+        "qid": 104,
+        "row_index": "89359",
+        "key": "mereekspor",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "115160",
+          "20906",
+          "120073"
+        ]
+      },
+      {
+        "qid": 105,
+        "row_index": "9259",
+        "key": "ayah bunda",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "108100",
+          "59448",
+          "53138"
+        ]
+      },
+      {
+        "qid": 106,
+        "row_index": "59721",
+        "key": "kisat",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "37138",
+          "123127",
+          "109648"
+        ]
+      },
+      {
+        "qid": 107,
+        "row_index": "121594",
+        "key": "seharusnya",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "109662",
+          "58127",
+          "55721"
+        ]
+      },
+      {
+        "qid": 108,
+        "row_index": "31040",
+        "key": "dilatasi",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "14820",
+          "969",
+          "127155"
+        ]
+      },
+      {
+        "qid": 109,
+        "row_index": "143708",
+        "key": "vaksin",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "138",
+          "17350",
+          "17298"
+        ]
+      },
+      {
+        "qid": 110,
+        "row_index": "39058",
+        "key": "geotropik",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "31629",
+          "72353",
+          "2700"
+        ]
+      },
+      {
+        "qid": 111,
+        "row_index": "142993",
+        "key": "unhatta",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "24424",
+          "113709",
+          "131574"
+        ]
+      },
+      {
+        "qid": 112,
+        "row_index": "145591",
+        "key": "yahudiah",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "110376",
+          "12021",
+          "16441"
+        ]
+      },
+      {
+        "qid": 113,
+        "row_index": "128217",
+        "key": "spt mayat ditegakkan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "11606",
+          "21758",
+          "82421"
+        ]
+      },
+      {
+        "qid": 114,
+        "row_index": "79103",
+        "key": "menciumi",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "128997",
+          "69812",
+          "110554"
+        ]
+      },
+      {
+        "qid": 115,
+        "row_index": "44481",
+        "key": "ikan matang",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "116327",
+          "128561",
+          "32600"
+        ]
+      },
+      {
+        "qid": 116,
+        "row_index": "74158",
+        "key": "melukut",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "908",
+          "90365",
+          "33455"
+        ]
+      },
+      {
+        "qid": 117,
+        "row_index": "23679",
+        "key": "bubur lambuk",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "68026",
+          "29232",
+          "141609"
+        ]
+      }
+    ],
+    "blanked_qids": [],
+    "window_12": [],
+    "last_200_rowidx": [
+      "120960",
+      "145641",
+      "121538",
+      "57290",
+      "145638",
+      "124780",
+      "46702",
+      "120751",
+      "29912",
+      "68302",
+      "109365",
+      "145639",
+      "75983",
+      "50620",
+      "138894",
+      "28404",
+      "142212",
+      "42084",
+      "31312",
+      "28483",
+      "78678",
+      "109005",
+      "1710",
+      "48080",
+      "131523",
+      "42346",
+      "65339",
+      "123733",
+      "58640",
+      "85963",
+      "99612",
+      "112405",
+      "13085",
+      "17020",
+      "98951",
+      "116443",
+      "114227",
+      "99922",
+      "38996",
+      "50670",
+      "4747",
+      "5574",
+      "242",
+      "122675",
+      "119927",
+      "131252",
+      "110330",
+      "39008",
+      "29276",
+      "35842",
+      "104307",
+      "99906",
+      "130863",
+      "39028",
+      "19804",
+      "143993",
+      "99633",
+      "28309",
+      "14611",
+      "21126",
+      "109323",
+      "108651",
+      "136875",
+      "108384",
+      "117424",
+      "56278",
+      "71789",
+      "131969",
+      "2833",
+      "83668",
+      "2028",
+      "34379",
+      "128080",
+      "55893",
+      "83031",
+      "89853",
+      "138387",
+      "72980",
+      "103013",
+      "924",
+      "132154",
+      "3789",
+      "132241",
+      "100765",
+      "17162",
+      "137443",
+      "89359",
+      "9259",
+      "59721",
+      "121594",
+      "31040",
+      "143708",
+      "39058",
+      "142993",
+      "145591",
+      "128217",
+      "79103",
+      "44481",
+      "74158",
+      "23679"
+    ],
+    "seen_keys_all_senses": [
+      "dan",
+      "vesikular",
+      "ketersinggungan",
+      "persis",
+      "pasit",
+      "pelaku bisnis",
+      "kering",
+      "pegawai pemerintah",
+      "itu",
+      "perumahan rakyat",
+      "segera",
+      "pegar",
+      "membuka",
+      "prihatin",
+      "udik",
+      "geokimiawi",
+      "takbutuh",
+      "besalen",
+      "menjoget",
+      "hemosianin",
+      "beranjak",
+      "geologi rekayasa",
+      "abdominal",
+      "tal",
+      "tahap operasional konkret",
+      "debat",
+      "bedah buku",
+      "tidak",
+      "geomorfik",
+      "saya",
+      "lingkungan",
+      "hati",
+      "pernikahan dini",
+      "kameo",
+      "landas paya",
+      "seludupan saku",
+      "perkerasan",
+      "agresor",
+      "pindah",
+      "radas ekstraksi",
+      "renyeh",
+      "bersidang",
+      "sensitif",
+      "terlacak",
+      "damai",
+      "anemofili",
+      "berjungkir",
+      "jelas",
+      "disapa",
+      "dengan",
+      "dakwaan alternatif",
+      "flis",
+      "mencapai",
+      "sebagai",
+      "pengerucutan",
+      "kambang",
+      "yang",
+      "pelalaian",
+      "ampai-ampai",
+      "serta",
+      "perusahaan cangkang",
+      "sangkut"
+    ],
+    "session_mine_list": []
+  },
+  "447386700172230656": {
+    "user_id": 447386700172230656,
+    "mode": "freedom",
+    "reviewmode": "manual",
+    "hide_item_info": false,
+    "history_list": [
+      {
+        "qid": 26,
+        "row_index": "65783",
+        "key": "laporan",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "22274",
+          "89790",
+          "144982"
+        ]
+      },
+      {
+        "qid": 29,
+        "row_index": "112975",
+        "key": "provinsi",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "101068",
+          "41496",
+          "131582"
+        ]
+      },
+      {
+        "qid": 30,
+        "row_index": "125041",
+        "key": "sesuatu",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "118661",
+          "66977",
+          "73488"
+        ]
+      },
+      {
+        "qid": 31,
+        "row_index": "28747",
+        "key": "darah",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "138619",
+          "37545",
+          "115933"
+        ]
+      },
+      {
+        "qid": 32,
+        "row_index": "138667",
+        "key": "tes urine",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "55119",
+          "53959",
+          "77578"
+        ]
+      },
+      {
+        "qid": 33,
+        "row_index": "44076",
+        "key": "i",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "56472",
+          "529",
+          "5111"
+        ]
+      },
+      {
+        "qid": 34,
+        "row_index": "92358",
+        "key": "muko-muko",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "36752",
+          "82671",
+          "121889"
+        ]
+      },
+      {
+        "qid": 35,
+        "row_index": "74615",
+        "key": "memanipulasikan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "24448",
+          "99575",
+          "113432"
+        ]
+      },
+      {
+        "qid": 36,
+        "row_index": "80881",
+        "key": "mengalihbahasakan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "41698",
+          "10871",
+          "78975"
+        ]
+      },
+      {
+        "qid": 37,
+        "row_index": "46091",
+        "key": "intip",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "50365",
+          "66124",
+          "81028"
+        ]
+      },
+      {
+        "qid": 38,
+        "row_index": "115294",
+        "key": "rasyid",
+        "correct": false,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "80811",
+          "95751",
+          "155"
+        ]
+      },
+      {
+        "qid": 40,
+        "row_index": "36142",
+        "key": "fotokimia",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 2,
+        "distractors": [
+          "72458",
+          "82910",
+          "67326"
+        ]
+      },
+      {
+        "qid": 43,
+        "row_index": "40043",
+        "key": "gocekan",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "38589",
+          "141675",
+          "46522"
+        ]
+      },
+      {
+        "qid": 44,
+        "row_index": "135830",
+        "key": "tercerai-berai",
+        "correct": true,
+        "date": "2025-09-26",
+        "qtype": 1,
+        "distractors": [
+          "76163",
+          "40352",
+          "11839"
+        ]
+      }
+    ],
+    "blanked_qids": [],
+    "window_12": [],
+    "last_200_rowidx": [
+      "65783",
+      "112975",
+      "125041",
+      "28747",
+      "138667",
+      "44076",
+      "92358",
+      "74615",
+      "80881",
+      "46091",
+      "115294",
+      "36142",
+      "40043",
+      "135830"
+    ],
+    "seen_keys_all_senses": [
+      "fotokimia",
+      "tercerai-berai",
+      "tes urine",
+      "muko-muko",
+      "sesuatu",
+      "laporan",
+      "i",
+      "intip",
+      "rasyid",
+      "gocekan",
+      "provinsi",
+      "mengalihbahasakan",
+      "darah",
+      "memanipulasikan"
+    ],
+    "session_mine_list": []
+  }
+}
