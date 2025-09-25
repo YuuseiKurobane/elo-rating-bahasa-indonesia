@@ -31,9 +31,14 @@ from typing import Dict, List, Tuple, Optional, Set, Any
 import discord
 from discord.ext import commands
 
+from typing import List
+from sentence_transformers import SentenceTransformer, util
+
 # ------------------------------
 # Constants / Config
 # ------------------------------
+
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 INTENTS = discord.Intents.default()
 INTENTS.message_content = True
@@ -503,18 +508,15 @@ def norm_tokens(s: str) -> List[str]:
 def cosine_tokens(ta: List[str], tb: List[str]) -> float:
     if not ta or not tb:
         return 0.0
-    ca, cb = {}, {}
-    for t in ta:
-        ca[t] = ca.get(t,0)+1
-    for t in tb:
-        cb[t] = cb.get(t,0)+1
-    num = 0.0
-    for t, va in ca.items():
-        vb = cb.get(t)
-        if vb:
-            num += va*vb
-    den = math.sqrt(sum(v*v for v in ca.values())) * math.sqrt(sum(v*v for v in cb.values()))
-    return (num / den) if den else 0.0
+
+    # join tokens back into a string (since ST expects sentences)
+    text_a = " ".join(ta)
+    text_b = " ".join(tb)
+
+    emb_a = model.encode(text_a, convert_to_tensor=True, normalize_embeddings=True)
+    emb_b = model.encode(text_b, convert_to_tensor=True, normalize_embeddings=True)
+
+    return util.cos_sim(emb_a, emb_b).item()
 
 def jaccard_set(ta: List[str], tb: List[str]) -> float:
     A, B = set(ta), set(tb)
