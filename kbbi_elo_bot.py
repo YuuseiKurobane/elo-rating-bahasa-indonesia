@@ -44,7 +44,7 @@ INTENTS = discord.Intents.default()
 INTENTS.message_content = True
 INTENTS.members = True
 
-COMMAND_PREFIX = "?"
+COMMAND_PREFIX = "!"
 BOT_DESCRIPTION = "KBBI ELO RATING Bot"
 
 USER_DATA_FILE = "user_elo_data.json"
