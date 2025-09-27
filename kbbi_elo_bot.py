@@ -1892,9 +1892,9 @@ async def cmd_leaderboard(ctx: commands.Context):
     lines = [f"🏆 **Leaderboard** — opted-in users (Elo visible after ≥{MIN_NONBLANK_FOR_ELO} non-blank answers)"]
     for i, (eloi, uid, nnb, ntot) in enumerate(rows, 1):
         name = _display_name_for(ctx, uid)
-        lines.append(f"{i:>2}. {name}: **{eloi}**  (non-blank {nnb}, total {ntot})")
+        lines.append(f"{i:>2}. {name}: **{eloi}**")
 
-    text_out = "\\n".join(lines)
+    text_out = "\n".join(lines)
     await send_long_text(ctx, "leaderboard.txt", text_out)
 
 
