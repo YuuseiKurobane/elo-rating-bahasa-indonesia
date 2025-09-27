@@ -1889,10 +1889,10 @@ async def cmd_leaderboard(ctx: commands.Context):
         return
 
     rows.sort(key=lambda t: (-t[0], t[1]))  # Elo desc, then uid
-    lines = [f"🏆 **Leaderboard** — opted-in users (Elo visible after ≥{MIN_NONBLANK_FOR_ELO} non-blank answers)"]
+    lines = [f"🏆 Leaderboard — opted-in users (Elo visible after ≥{MIN_NONBLANK_FOR_ELO} non-blank answers)"]
     for i, (eloi, uid, nnb, ntot) in enumerate(rows, 1):
         name = _display_name_for(ctx, uid)
-        lines.append(f"{i:>2}. {name}: **{eloi}**")
+        lines.append(f"{i:>2}. {name}: {eloi}")
 
     text_out = "\n".join(lines)
     await send_long_text(ctx, "leaderboard.txt", text_out)
