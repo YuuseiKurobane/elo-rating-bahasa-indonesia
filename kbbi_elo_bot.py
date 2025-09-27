@@ -127,7 +127,7 @@ class UserProfile:
             "window_12": self.window_12,
             "last_200_rowidx": self.last_200_rowidx,
             "seen_keys_all_senses": list(self.seen_keys_all_senses),
-            "session_mine_list": self.session_mine_list,,
+            "session_mine_list": self.session_mine_list,
 
             # persist opt-in flag
             "leaderboard_opt_in": self.leaderboard_opt_in,
