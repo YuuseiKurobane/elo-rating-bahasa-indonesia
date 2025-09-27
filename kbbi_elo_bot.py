@@ -113,6 +113,9 @@ class UserProfile:
     seen_keys_all_senses: Set[str] = field(default_factory=set)     # for anki mode (keys)
     session_mine_list: List[str] = field(default_factory=list)      # keys for mine print
 
+    # Opt-in flag for public leaderboard
+    leaderboard_opt_in: bool = False
+
     def to_json(self) -> Dict[str, Any]:
         return {
             "user_id": self.user_id,
@@ -124,7 +127,11 @@ class UserProfile:
             "window_12": self.window_12,
             "last_200_rowidx": self.last_200_rowidx,
             "seen_keys_all_senses": list(self.seen_keys_all_senses),
-            "session_mine_list": self.session_mine_list,
+            "session_mine_list": self.session_mine_list,,
+
+            # persist opt-in flag
+            "leaderboard_opt_in": self.leaderboard_opt_in,
+        
         }
 
     @staticmethod
@@ -139,6 +146,8 @@ class UserProfile:
         up.last_200_rowidx = d.get("last_200_rowidx", [])
         up.seen_keys_all_senses = set(d.get("seen_keys_all_senses", []))
         up.session_mine_list = d.get("session_mine_list", [])
+        # read opt-in flag safely (defaults to False if missing)
+        up.leaderboard_opt_in = bool(d.get(\"leaderboard_opt_in\", False))
         return up
 
 @dataclass
@@ -652,10 +661,10 @@ def compute_elo_for_user(up: UserProfile) -> Tuple[float, int, int]:
     else:
         q = 200 - N_total
         if elo_unpen > 2000.0:
-            penalty = 4.0 * q
+            penalty = 1.5 * q
         elif elo_unpen > 1000.0:
             lam = (elo_unpen - 1000.0)/1000.0
-            penalty = 4.0 * q * lam
+            penalty = 1.5 * q * lam
         else:
             penalty = 0.0
 
@@ -989,6 +998,19 @@ async def on_ready():
 # Core Commands
 # ------------------------------
 
+
+def _display_name_for(ctx, uid: int) -> str:
+    # Prefer the current guild's display name; fallback to global user name; then ID.
+    try:
+        if ctx.guild:
+            m = ctx.guild.get_member(uid)
+            if m:
+                return m.display_name
+        u = ctx.bot.get_user(uid)
+        return u.name if u else f"User {uid}"
+    except Exception:
+        return f"User {uid}"
+
 @bot.command(name="help")
 async def cmd_help(ctx: commands.Context):
     msg = dedent(f"""
@@ -1007,6 +1029,8 @@ async def cmd_help(ctx: commands.Context):
     • {COMMAND_PREFIX}buff / {COMMAND_PREFIX}buffid <row_index> — request difficulty increase
     • {COMMAND_PREFIX}quiz [N] — start a quiz (default N={DEFAULT_QUIZ_LEN}), type 'exit' to stop
     • {COMMAND_PREFIX}hide — toggle whether to show freq-rank and b after each answer
+    • {COMMAND_PREFIX}joinleaderboard — opt in to the public Elo leaderboard (off by default)
+    • {COMMAND_PREFIX}leaderboard — show the leaderboard of opted-in users (Elo visible after MIN_NONBLANK_FOR_ELO)
     • {COMMAND_PREFIX}helpadmin — shows admin-only commands
     """).strip()
     await send_long_text(ctx, "help.txt", msg)
@@ -1656,7 +1680,7 @@ async def cmd_quiz(ctx: commands.Context, limit: Optional[str] = None):
     """
 
     # ---- config / guards -----------------------------------------------------
-    IDLE_SECS = 120  # idle timeout waiting for an answer
+    IDLE_SECS = SESSION_IDLE_TIMEOUT_SEC  # idle timeout waiting for an answer
     global ACTIVE_QUIZ
     if ACTIVE_QUIZ.get(ctx.author.id):
         await ctx.send("You already have an active quiz. Type 'exit' to stop.")
@@ -1867,3 +1891,43 @@ if __name__ == "__main__":
     bootstrap()
     TOKEN = read_token()
     bot.run(TOKEN)
+
+
+@bot.command(name="joinleaderboard")
+async def cmd_join_leaderboard(ctx: commands.Context):
+    uid = ctx.author.id
+    up = USERS.get(uid)
+    if up is None:
+        up = UserProfile(user_id=uid)
+        USERS[uid] = up
+    if up.leaderboard_opt_in:
+        await ctx.send("You're already opted in to the leaderboard.")
+        return
+    up.leaderboard_opt_in = True
+    save_user_store()
+    await ctx.send("✅ You have opted in to the leaderboard. Use `!leaderboard` to see the rankings.")
+
+@bot.command(name="leaderboard")
+async def cmd_leaderboard(ctx: commands.Context):
+    # Build rows for opted-in users with visible Elo
+    rows = []
+    for uid, up in USERS.items():
+        if not getattr(up, "leaderboard_opt_in", False):
+            continue
+        elo, n_total, n_nonblank = compute_elo_for_user(up)
+        if n_nonblank >= MIN_NONBLANK_FOR_ELO:
+            rows.append((int(round(elo)), uid, n_nonblank, n_total))
+
+    if not rows:
+        await ctx.send(f"No eligible entries yet. Users must `!joinleaderboard` **and** reach ≥{MIN_NONBLANK_FOR_ELO} non-blank answers.")
+        return
+
+    rows.sort(key=lambda t: (-t[0], t[1]))  # Elo desc, then uid
+    lines = [f"🏆 **Leaderboard** — opted-in users (Elo visible after ≥{MIN_NONBLANK_FOR_ELO} non-blank answers)"]
+    for i, (eloi, uid, nnb, ntot) in enumerate(rows, 1):
+        name = _display_name_for(ctx, uid)
+        lines.append(f"{i:>2}. {name}: **{eloi}**  (non-blank {nnb}, total {ntot})")
+
+    text_out = "\\n".join(lines)
+    await send_long_text(ctx, "leaderboard.txt", text_out)
+
