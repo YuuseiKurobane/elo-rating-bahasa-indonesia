@@ -147,7 +147,7 @@ class UserProfile:
         up.seen_keys_all_senses = set(d.get("seen_keys_all_senses", []))
         up.session_mine_list = d.get("session_mine_list", [])
         # read opt-in flag safely (defaults to False if missing)
-        up.leaderboard_opt_in = bool(d.get(\"leaderboard_opt_in\", False))
+        up.leaderboard_opt_in = bool(d.get("leaderboard_opt_in", False))
         return up
 
 @dataclass
