@@ -1859,40 +1859,6 @@ async def cmd_quiz(ctx: commands.Context, limit: Optional[str] = None):
             pass
 
 
-# ------------------------------
-# Startup
-# ------------------------------
-
-def bootstrap():
-    # Load stores
-    load_user_store()
-    load_counter()
-    load_items()
-    load_freqs()
-    load_english_nerf()
-    ensure_def_tokens()
-    build_key_pools()
-
-    # CSV headers
-    ensure_csv_headers(DIFF_ADJUSTMENTS_CSV, ["row_index","key","googletranslate","a","b","old_b","admin_id","date"])
-    ensure_csv_headers(APPROVED_REPORTS_CSV, ["approval_id","user_id","qid","row_index_correct","correct_key","d1","d2","d3","action","admin_id","date"])
-    ensure_csv_headers(APPROVED_COMPLAINTS_CSV, ["approval_id","user_id","qid","row_index_correct","correct_key","d1","d2","d3","action","admin_id","date"])
-
-def read_token() -> str:
-    tok = os.environ.get("DISCORD_TOKEN","").strip()
-    if tok:
-        return tok
-    if os.path.isfile("token.txt"):
-        with open("token.txt","r",encoding="utf-8") as f:
-            return f.read().strip()
-    raise RuntimeError("No Discord token found. Set DISCORD_TOKEN env var or create token.txt")
-
-if __name__ == "__main__":
-    bootstrap()
-    TOKEN = read_token()
-    bot.run(TOKEN)
-
-
 @bot.command(name="joinleaderboard")
 async def cmd_join_leaderboard(ctx: commands.Context):
     uid = ctx.author.id
@@ -1930,4 +1896,39 @@ async def cmd_leaderboard(ctx: commands.Context):
 
     text_out = "\\n".join(lines)
     await send_long_text(ctx, "leaderboard.txt", text_out)
+
+
+
+# ------------------------------
+# Startup
+# ------------------------------
+
+def bootstrap():
+    # Load stores
+    load_user_store()
+    load_counter()
+    load_items()
+    load_freqs()
+    load_english_nerf()
+    ensure_def_tokens()
+    build_key_pools()
+
+    # CSV headers
+    ensure_csv_headers(DIFF_ADJUSTMENTS_CSV, ["row_index","key","googletranslate","a","b","old_b","admin_id","date"])
+    ensure_csv_headers(APPROVED_REPORTS_CSV, ["approval_id","user_id","qid","row_index_correct","correct_key","d1","d2","d3","action","admin_id","date"])
+    ensure_csv_headers(APPROVED_COMPLAINTS_CSV, ["approval_id","user_id","qid","row_index_correct","correct_key","d1","d2","d3","action","admin_id","date"])
+
+def read_token() -> str:
+    tok = os.environ.get("DISCORD_TOKEN","").strip()
+    if tok:
+        return tok
+    if os.path.isfile("token.txt"):
+        with open("token.txt","r",encoding="utf-8") as f:
+            return f.read().strip()
+    raise RuntimeError("No Discord token found. Set DISCORD_TOKEN env var or create token.txt")
+
+if __name__ == "__main__":
+    bootstrap()
+    TOKEN = read_token()
+    bot.run(TOKEN)
 
